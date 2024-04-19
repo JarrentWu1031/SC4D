@@ -5,7 +5,7 @@
 If you find our work useful for your research, please star this repo and cite our paper. Thanks!
 ```
 @article{wu2024sc4d,
-    author = {Wu, Zijie and Yu, Chaohui and Jiang, Yanqin and Cao, Chenjie and Wang Fan and Bai, Xiang.},
+    author = {Wu, Zijie and Yu, Chaohui and Jiang, Yanqin and Cao, Chenjie and Wang, Fan and Bai, Xiang.},
     title  = {SC4D: Sparse-Controlled Video-to-4D Generation and Motion Transfer},
     journal = {arxiv:2404.03736},
     year   = {2024},
