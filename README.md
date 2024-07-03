@@ -1,4 +1,4 @@
-# SC4D: Sparse-Controlled Video-to-4D Generation and Motion Transfer
+# SC4D: Sparse-Controlled Video-to-4D Generation and Motion Transfer (ECCV 2024)
 
 [**Project Page**](https://sc4d.github.io/) | [**Paper**]() | [**Video Demo**](https://www.youtube.com/watch?v=SkpTEuX4B5c) 
 
