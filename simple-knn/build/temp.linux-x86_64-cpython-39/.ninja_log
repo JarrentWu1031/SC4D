@@ -1,0 +1,13 @@
+# ninja log v5
+8	14977	1698043318431399813	/mnt/workspace/Current/dreamgaussian-main/simple-knn/build/temp.linux-x86_64-cpython-39/simple_knn.o	e462de5677850a6f
+7	25895	1698043329344263504	/mnt/workspace/Current/dreamgaussian-main/simple-knn/build/temp.linux-x86_64-cpython-39/ext.o	c4a5fabc232ace39
+9	72829	1698043376278627189	/mnt/workspace/Current/dreamgaussian-main/simple-knn/build/temp.linux-x86_64-cpython-39/spatial.o	306a384c76925bd1
+105	15460	1706681126748346172	/mnt/workspace/Current/dreamgaussian-main/simple-knn/build/temp.linux-x86_64-cpython-39/simple_knn.o	4338f376ec09cf90
+103	26455	1706681137726386648	/mnt/workspace/Current/dreamgaussian-main/simple-knn/build/temp.linux-x86_64-cpython-39/ext.o	30c64cd52a7f1864
+106	73584	1706681184865909630	/mnt/workspace/Current/dreamgaussian-main/simple-knn/build/temp.linux-x86_64-cpython-39/spatial.o	c14ce7ac88dbdd8d
+36	16683	1707550469789292056	/mnt/workspace/Current/dreamgaussian-main/simple-knn/build/temp.linux-x86_64-cpython-39/simple_knn.o	f6d8f9fff559b7c
+35	21585	1707550474679922590	/mnt/workspace/Current/dreamgaussian-main/simple-knn/build/temp.linux-x86_64-cpython-39/ext.o	805630ea0947cdef
+38	71739	1707550524848114959	/mnt/workspace/Current/dreamgaussian-main/simple-knn/build/temp.linux-x86_64-cpython-39/spatial.o	5ba29b6db90a17ee
+29	15523	1707981981808514419	/mnt/workspace/Current/dreamgaussian-main/simple-knn/build/temp.linux-x86_64-cpython-39/simple_knn.o	4338f376ec09cf90
+27	27189	1707981993457263830	/mnt/workspace/Current/dreamgaussian-main/simple-knn/build/temp.linux-x86_64-cpython-39/ext.o	30c64cd52a7f1864
+30	75582	1707982041863288825	/mnt/workspace/Current/dreamgaussian-main/simple-knn/build/temp.linux-x86_64-cpython-39/spatial.o	c14ce7ac88dbdd8d

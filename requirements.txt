@@ -1,0 +1,28 @@
+torch == 2.0.1
+torchvision == 0.15.2
+diffusers == 0.21.4
+tqdm
+rich
+ninja
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+opencv-python
+imageio
+imageio-ffmpeg
+omegaconf
+rembg
+einops
+plyfile
+pygltflib
+huggingface_hub
+accelerate
+transformers
+open3d
+chamferdist
+controlnet_aux
+mediapipe
+git+https://github.com/ashawkey/kiuikit
+git+https://github.com/facebookresearch/pytorch3d.git

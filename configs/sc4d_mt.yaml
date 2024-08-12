@@ -1,0 +1,95 @@
+### Input
+# estimated elevation angle for input image 
+elevation: 0
+
+### Output
+save_path: 
+save_path_new:
+
+### Training
+# training or testing
+train_dynamic: False
+# guidance
+controlsd: True
+control_type: depth
+lambda_sd: 1.0
+# guidance prompts
+prompt: A photo of ironman
+neg_prompt: unrealistic, blurry, low quality, out of focus, ugly, low contrast, dull, low-resolution.
+# training iterations
+iters_s3: 2000
+# number of timestamps
+num_t: 32
+# training batch size per iter
+batch_size: 4
+# training iterations for the coarse stage
+min_ver: -30
+max_ver: 30
+anneal_timestep: True
+# training camera radius
+radius: 2
+# training camera fovy
+fovy: 49.1 # align with zero123 rendering setting (ref: https://github.com/cvlab-columbia/zero123/blob/main/objaverse-rendering/scripts/blender_script.py#L61
+# prob to invert background color during training (0 = always black, 1 = always white)
+invert_bg_prob: 0.5
+# vis resolution
+H: 800
+W: 800
+# FPS
+FPS_iter: 1000
+# ga loss
+add_ga: True
+ga_chamfer: True
+lambda_ga1: 10.0
+lambda_ga2: 10000.0
+# arap loss
+use_arap: True
+arap_start_iter: 1000
+lambda_arap: 10.0
+# continue training
+load_stage: ""
+# scheduler
+t_range_s1: [0.6, 0.8]
+t_range_s2: [0.2, 0.8]
+save_inter: 500
+
+### Gaussian splatting parameters
+num_pts: 100000
+sh_degree: 0
+opacity_lr: 0.05
+scaling_lr: 0.005
+percent_dense: 0.01
+density_start_iter: 100
+density_end_iter: 1000
+densification_interval: 100
+densification_interval_s2: 1000
+opacity_reset_interval: 200000
+densify_grad_threshold: 0.01
+
+position_lr_init: 0.01
+position_lr_final: 0.0002
+position_lr_delay_mult: 0.02
+position_lr_max_steps: 1000
+feature_lr: 0.01
+rotation_lr: 0.005
+c_radius_lr: 0.005
+deform_lr_init: 0.0002
+deform_lr_final: 0.000002
+deform_learn_start: 0
+deformation_lr_delay_mult: 0.01
+c_position_lr_init: 0.000002
+c_position_lr_final: 0.000002
+c_position_lr_delay_mult: 0.02
+r_lr: 0.01
+
+init_type: ag
+init_ratio: 1
+
+### Inference
+test_step: 
+test_stage: s3
+test_azi: 0
+do_inference: False
+check_inter: 100
+video_save_dir: test_video
+render_type: fixed
