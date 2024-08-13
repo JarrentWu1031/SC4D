@@ -6,6 +6,9 @@ Zijie Wu<sup>1,2</sup>, Chaohui Yu<sup>2</sup>, Yanqin Jiang<sup>2</sup>, Chenji
 
 ![Demo GIF](https://github.com/JarrentWu1031/SC4D/blob/main/assets/teaser.gif)
 
+<div align=center>
+<img src="https://github.com/JarrentWu1031/SC4D/blob/main/assets/teaser.png" width=85%>
+</div>
 
 
 # News
