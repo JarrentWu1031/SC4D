@@ -4,11 +4,9 @@ Zijie Wu<sup>1,2</sup>, Chaohui Yu<sup>2</sup>, Yanqin Jiang<sup>2</sup>, Chenji
 
 [**Project Page**](https://sc4d.github.io/) | [**Paper**](https://arxiv.org/abs/2404.03736) | [**Video Demo**](https://www.youtube.com/watch?v=SkpTEuX4B5c) 
 
+![Demo GIF](https://github.com/JarrentWu1031/SC4D/blob/main/assets/teaser.gif)
 
 
-<div align=center>
-<img src="https://github.com/JarrentWu1031/SC4D/blob/main/teaser.png" width=85%>
-</div>
 
 # News
 [**2024.08.12**] The training and inference code for **SC4D** is available now! The cleaned code performs comparable or even better than reported in the main paper! Besides, the training time has been reduced to about 40 minutes per example for video-to-4D generation and 30 minutes for motion transfer (all tested on a single Tesla V100 GPU), which is approximately 67% of the main paper! <br>
