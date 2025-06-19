@@ -80,11 +80,14 @@ Please check `./configs/sc4d_mt.yaml` for more options.
 # Citation
 If you find our work useful for your research, please star this repo and cite our paper. Thanks!
 ```
-@article{wu2024sc4d,
-    author = {Wu, Zijie and Yu, Chaohui and Jiang, Yanqin and Cao, Chenjie and Wang, Fan and Bai, Xiang.},
-    title  = {SC4D: Sparse-Controlled Video-to-4D Generation and Motion Transfer},
-    journal = {arxiv:2404.03736},
-    year   = {2024},
+@inproceedings{wu2024sc4d,
+  title={Sc4d: Sparse-controlled video-to-4d generation and motion transfer},
+  author={Wu, Zijie and Yu, Chaohui and Jiang, Yanqin and Cao, Chenjie and Wang, Fan and Bai, Xiang},
+  booktitle={European Conference on Computer Vision},
+  pages={361--379},
+  year={2024},
+  organization={Springer}
+}
 ```
 
 # Acknowledgement 
